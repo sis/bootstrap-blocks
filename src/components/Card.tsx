@@ -8,12 +8,12 @@ interface Props {
 
 const Card = ({ text, link }: Props) => (
   <BootstrapCard className="mb-5">
-    <Row g={0}>
-      <Col md={5}>
+    <div className="row">
+      <div className="col-md-5">
         <PlaceholderImage />
-      </Col>
-      <Col md={7} className="d-flex">
-        <CardBody className="d-flex flex-column justify-content-between p-4">
+      </div>
+      <div className="col-md-7 d-flex p-0">
+        <CardBody className="d-flex flex-column justify-content-between py-4 pe-4">
           <CardTitle tag="h5" className="fw-light">
             {text}
           </CardTitle>
@@ -21,8 +21,8 @@ const Card = ({ text, link }: Props) => (
             {link}
           </a>
         </CardBody>
-      </Col>
-    </Row>
+      </div>
+    </div>
   </BootstrapCard>
 );
 

@@ -41,7 +41,7 @@ function App() {
           </NavItem>
         ))}
       </Nav>
-      <div className="d-flex flex-column justify-content-center">
+      <div className="d-flex flex-grow-1 flex-column justify-content-center">
         {Component && <Component />}
       </div>
     </>
