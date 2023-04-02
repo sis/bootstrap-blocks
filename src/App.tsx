@@ -5,7 +5,7 @@ import {
   NavItem,
   NavLink,
 } from 'reactstrap';
-import Third from "./blocks/Third";
+import Splits2 from "./blocks/Splits2";
 import FunctionalLayouts3 from "./blocks/FunctionalLayouts3";
 
 const navItems = [
@@ -19,7 +19,7 @@ const navItems = [
   },
   {
     name: 'Third',
-    component: Third
+    component: Splits2
   }
 ];
 

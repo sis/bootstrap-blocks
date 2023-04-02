@@ -31,3 +31,10 @@ a {
 .card:hover {
   box-shadow: 0 20px 30px 0 rgba(35, 35, 35, 0.2);
 }
+
+.background-image-mac {
+  background-image: url("https://www.laptopsdirect.co.uk/Images/MKGT3BA_4_Supersize.jpg?v=2");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
