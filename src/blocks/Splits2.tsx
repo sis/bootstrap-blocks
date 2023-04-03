@@ -1,12 +1,10 @@
 import {stats} from "../data/stats";
-import PlaceholderImage from "../PlaceholderImage";
-import {Placeholder} from "reactstrap";
 
 const Splits2 = () => (
   <div className="row flex-grow-1 text-white">
     <div className="col-md-6 background-image-mac">
     </div>
-    <div className="col-md-6 bg-black f-white d-flex flex-column justify-content-center p-5">
+    <div className="col-md-6 bg-black f-white d-flex flex-column justify-content-center p-5 text-white">
         <h2 className="mb-5 fw-light">
           Sunt autem nusquam hoc tenebo si ob aliquam causam
         </h2>
@@ -19,13 +17,13 @@ const Splits2 = () => (
         <div className="row">
           {stats.map((stat) => (
             <div className="col-md-4">
-              <div className="row">
-                <div className="col-xs-12 fs-1">
+              <div className="row flex-column">
+                <div className="col fs-1">
                   <b>
                     {stat.number}
                   </b>
                 </div>
-                <div className="col-xs-12">
+                <div className="col">
                   <p>
                     {stat.text}
                   </p>

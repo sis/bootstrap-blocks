@@ -18,7 +18,7 @@ const navItems = [
     component: FunctionalLayouts3,
   },
   {
-    name: 'Third',
+    name: 'Splits 2',
     component: Splits2
   }
 ];

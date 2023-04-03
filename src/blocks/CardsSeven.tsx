@@ -4,27 +4,27 @@ import {cardItems} from "../data/cards"
 
 const CardsSeven = () => (
   <Container className="d-flex flex-column justify-content-center">
-    <Row>
-      <Col className="d-flex justify-content-center mb-1">
+    <div className="row">
+      <div className="col d-flex justify-content-center mb-1">
         <h2 className="fs-6 p-1 px-3 bg-tertiary h2h6">
           In oculis quidem
         </h2>
-      </Col>
-    </Row>
-    <Row className="mb-5">
-      <Col className="text-center">
+      </div>
+    </div>
+    <div className="row mb-5">
+      <div className="col text-center">
         <h3 className="fw-light">
           Epicurus in malis dolor non emolumento
         </h3>
-      </Col>
-    </Row>
-    <Row className="gx-5">
+      </div>
+    </div>
+    <div className="row gx-5">
       {cardItems.map((item) => (
-        <Col lg={4} md={6} gx={10}>
+        <div className="col-lg-4 col-md-6">
           <Card text={item.text} link={item.link} />
-        </Col>
+        </div>
       ))}
-    </Row>
+    </div>
   </Container>
 );
 
