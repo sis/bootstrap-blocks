@@ -1,4 +1,4 @@
-import {Card, CardBody, CardTitle, Container} from "reactstrap";
+import {Card, CardBody, CardTitle} from "reactstrap";
 import {cards2} from "../data/cards2";
 import styled from 'styled-components';
 import {useState} from "react";
@@ -14,7 +14,7 @@ const StyledCard = styled(Card)<{ active: boolean }>`
   `)}
 `;
 
-const BlueWords = styled.span`
+const ATag = styled.a`
   color: #304ffe;
   border-bottom: solid 1px #304ffe;
 `;
@@ -41,11 +41,11 @@ const FunctionalLayouts3 = () => {
   };
 
   return (
-    <div className="bg-black d-flex flex-grow-1">
-      <Container className="d-flex flex-column justify-content-center">
+    <section className="bg-black d-flex py-5 big-y-padding">
+      <div className="container d-flex flex-column justify-content-center">
         <div className="row mb-5 d-flex justify-content-center">
           <h2 className="text-white w-50 text-center fw-light">
-            Et quidem rerum facilis est consecutus laudem et dolorum <BlueWords>effugiendorum</BlueWords> gratia
+            Et quidem rerum facilis est consecutus laudem et dolorum <ATag href="#">effugiendorum</ATag> gratia
           </h2>
         </div>
         <div className="row g-5">
@@ -76,8 +76,8 @@ const FunctionalLayouts3 = () => {
             </div>
           ))}
         </div>
-      </Container>
-    </div>
+      </div>
+    </section>
   );
 }
 

@@ -1,5 +1,5 @@
 import PlaceholderImage from "../PlaceholderImage";
-import {Card as BootstrapCard, CardBody, CardTitle, Col, Row} from "reactstrap";
+import {Card as BootstrapCard, CardBody, CardTitle} from "reactstrap";
 
 interface Props {
   text: string;

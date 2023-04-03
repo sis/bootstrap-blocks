@@ -34,16 +34,14 @@ function App() {
     <>
       <Nav pills className="p-2">
         {navItems.map((item) => (
-          <NavItem>
+          <NavItem key={item.name}>
             <NavLink href="#" active={selected === item.name} onClick={() => setSelected(item.name)}>
               {item.name}
             </NavLink>
           </NavItem>
         ))}
       </Nav>
-      <div className="d-flex flex-grow-1 flex-column justify-content-center">
-        {Component && <Component />}
-      </div>
+      {Component && <Component />}
     </>
   )
 }
