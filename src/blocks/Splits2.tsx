@@ -1,7 +1,7 @@
 import {stats} from "../data/stats";
 
 const Splits2 = () => (
-  <section className="container-fluid row d-flex text-white">
+  <section className="container-fluid d-flex text-white">
     <div className="col-md-6 position-relative bg-white big-y-padding">
       <img src="https://www.laptopsdirect.co.uk/Images/MKGT3BA_4_Supersize.jpg?v=2" alt="Apple Macbook" className="image-fit" />
     </div>

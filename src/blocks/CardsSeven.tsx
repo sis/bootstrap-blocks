@@ -17,7 +17,7 @@ const CardsSeven = () => (
     </div>
     <div className="row gx-5">
       {cardItems.map((item) => (
-        <div className="col-lg-4 col-md-6">
+        <div className="col-md-6 col-lg-4">
           <Card text={item.text} link={item.link} />
         </div>
       ))}

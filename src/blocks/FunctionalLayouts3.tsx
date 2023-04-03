@@ -50,7 +50,7 @@ const FunctionalLayouts3 = () => {
         </div>
         <div className="row g-5">
           {cards2.map((card, index) => (
-            <div className="col-md-3">
+            <div className="col-lg-3 col-md-4">
               <StyledCard
                 className="bg-black text-white"
                 onClick={() => onClick(index)}

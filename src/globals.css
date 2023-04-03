@@ -30,8 +30,15 @@ a {
 }
 
 .big-y-padding {
-  padding-top: 140px !important;
-  padding-bottom: 140px !important;
+  padding-top: 80px !important;
+  padding-bottom: 80px !important;
+}
+
+@media (min-width: 768px) {
+  .big-y-padding {
+    padding-top: 180px !important;
+    padding-bottom: 180px !important;
+  }
 }
 
 .card:hover {
