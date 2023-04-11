@@ -2,7 +2,7 @@ import Card from '../components/Card';
 import {cardItems} from "../data/cards"
 
 const CardsSeven = () => (
-  <section className="container d-flex flex-column justify-content-center big-y-padding">
+  <section className="container big-y-padding">
     <div className="row mb-5">
       <div className="col-xs-12 d-flex justify-content-center mb-1">
         <h2 className="fs-6 p-1 px-3 bg-tertiary">

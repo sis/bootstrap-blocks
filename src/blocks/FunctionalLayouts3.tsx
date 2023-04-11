@@ -41,10 +41,10 @@ const FunctionalLayouts3 = () => {
   };
 
   return (
-    <section className="bg-black d-flex py-5 big-y-padding">
-      <div className="container d-flex flex-column justify-content-center">
-        <div className="row mb-5 d-flex justify-content-center">
-          <h2 className="text-white w-50 text-center fw-light">
+    <section className="bg-black py-5 big-y-padding">
+      <div className="container">
+        <div className="row mb-5">
+          <h2 className="col-xs-12 col-md-8 text-white text-center fw-light mx-auto">
             Et quidem rerum facilis est consecutus laudem et dolorum <ATag href="#">effugiendorum</ATag> gratia
           </h2>
         </div>
